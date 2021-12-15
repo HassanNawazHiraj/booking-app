@@ -1,0 +1,154 @@
+header {
+    background: transparent url(/images/hero-river.png) 0% 0% no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    padding: 8rem 0;
+    font-size: 3.5rem;
+    letter-spacing: 9.8px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+}
+
+/* post 1,2,3 */
+.post {
+    margin: 200px 0;
+    margin-left: 12rem;
+}
+
+.post-number {
+    font: normal normal normal 16px/50px;
+    letter-spacing: 3.2px;
+    color: #9A9A9A;
+    text-transform: uppercase;
+}
+
+.post h3 {
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.post-text, .post-text3 {
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+.post-text2 {
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 1.5rem;
+}
+
+.post-heading2 {
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: 2rem;
+}
+
+.image-max-width {
+    max-width: 100%;
+}
+
+.margin-y150 {
+    margin: 150px 0;
+}
+
+.form {
+    margin-top: 130px;
+}
+
+.post-text::before, .post-text2::before, .post-heading-with-text::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    border-top: 1.75px solid black;
+    width: 6rem;
+    margin: 0 1rem;
+    transform: translateX(-8.5rem) translateY(1rem);
+}
+
+/* booking list */
+.booking-post-text {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.booking-post-description::before {
+    position: absolute;
+    display: inline-block;
+    content: "";
+    border-top: 1.8px solid black;
+    width: 3rem;
+    margin: 0 1rem;
+    transform: translateX(-5rem) translateY(0.75rem);
+}
+
+/* footer */
+footer {
+    padding: 50px 0 ;
+}
+
+.footer-book-now {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    letter-spacing: 4.2px;
+    cursor: pointer;
+}
+
+.footer-book-now:hover {
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.footer-menu {
+    letter-spacing: 4.2px;
+    font-size: 1.25rem;
+}
+
+
+@media screen and (max-width: 500px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .post {
+        margin: 50px 0;
+        margin-left: 5px;
+    }
+
+    .post-text {
+        margin: 20px 0;
+    }
+
+    .post-number {
+        margin-top: 10px;
+    }
+
+    .margin-y150 {
+        margin: 50px 0;
+    }
+
+    .form {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .footer-book-now {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .post {
+        margin-left: 0;
+    }
+
+
+}
